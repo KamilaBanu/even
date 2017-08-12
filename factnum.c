@@ -1,10 +1,10 @@
 #include<stdio.h>
     int main(){
-      int i,f=1,num;
-      scanf("%d",&num);
-     
-      for(i=1;i<=num;i++)
+      int i,f=1,n;
+        printf("%d",n);
+      scanf("%d",&n);
+      for(i=1;i<=n;i++)
           f=f*i;
-      printf("Factorial of %d is: %d",num,f);
+      printf("Factorial of %d is: %d",n,f);
       return 0;
     }
